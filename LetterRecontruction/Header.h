@@ -16,12 +16,14 @@ using namespace cv;
 
 #define PI 3.14159
 
-void Skeleton(const Mat &src, Mat &dst, const Mat &element);
+const int nei[][2] = { { -1, -1 }, { -1, 0 }, { -1, 1 }, { 0, 1 }, { 1, 1 }, { 1, 0 }, { 1, -1 }, { 0, -1 } };
 
-void ReconstructLetter(const Mat &img, Mat &dst);
 
-void hitmiss(const Mat& src, Mat& dst, const Mat& kernel);
+void Approach1(Mat img, Mat &dst);
 
-void GrayToBinary(const Mat &src, Mat &dst, const double &thresh);
+void Approach2(Mat img, double thres, int openNum, int thinNum);
 
+void hitmiss(Mat& src, Mat& dst, const Mat& kernel);
+
+void Skeleton(Mat src, Mat &dst, const Mat &element);
 #endif

@@ -81,7 +81,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LetterReconstruction.cpp" />
+    <ClCompile Include="A2.cpp" />
+    <ClCompile Include="A1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

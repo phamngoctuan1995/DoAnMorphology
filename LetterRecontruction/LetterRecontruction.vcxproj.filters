@@ -18,7 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LetterReconstruction.cpp">
+    <ClCompile Include="A2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
